@@ -6,14 +6,6 @@ const dishSchema = new Schema({
         type: String,
         required: true
     },
-    dishDescription: {
-        type: String,
-        required: true
-    },
-    dishImgSrc: {
-        type: String,
-        required: true
-    },
     price: {
         type: Number,
         required: true,

@@ -17,6 +17,11 @@ const orderSchema = new Schema({
         type: Number,
         required: true,
         default: 0
+    },
+    codigoPromocional: {
+        type: String,
+        required: true,
+        default: "NO TIENE"
     }
 });
 
